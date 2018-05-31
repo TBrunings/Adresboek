@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timothy's adresboek</title>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="adresboek1.css">
+</head>
+<body>
+    <h1>Timothy's adresboek</h1>
+
+    <hr>
+
+
+    <div id="uitvoer"></div>
+
+
+    <!--  OEFENING GEGEVENS TOEVOEGEN KNOP  -->
+
+    <button onclick="myFunction()">Contact toevoegen</button>
+
+    <p id="demo"></p>
+
+
+<script src="adresboek.js"></script>
+
+<script>
+    function myFunction() {
+        var txt;
+        var person = prompt("Please enter your name:", "Mijn naam");
+        if (person == null || person == "") {
+            txt = "User cancelled the prompt.";
+        } else {
+            txt = "Hello " + person + "! How are you today?";
+        }
+        document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>

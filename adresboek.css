@@ -1,0 +1,20 @@
+body  {
+    font-family: sans-serif;
+}
+.kaart  {
+    background-color: #eee;
+    border: 1px solid #444;
+    padding: 1em;
+    border-radius: .5em;
+    margin: .1em;
+    float: left;
+    width: 20em;
+}
+
+button {
+    background-color: bisque;
+    border: 1px solid #444;
+    padding: .5em;
+    border-radius: .3em;
+
+}
